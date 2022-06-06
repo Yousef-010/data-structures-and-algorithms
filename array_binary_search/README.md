@@ -1,1 +1,2 @@
-# code challenge 03 
+# array-binary-search
+## > Based on TDD tests
