@@ -19,7 +19,6 @@ class LinkedList:
         """
         insert value into LinkedList as node
         """
-
         node = Node(value)
         if self.head is None:
             self.head = node

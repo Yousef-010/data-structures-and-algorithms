@@ -59,10 +59,7 @@ def test_to_string(linked_list):
     """
     test represent the linked list values in a formatted way
     """
-    print(linked_list.to_string())
     assert linked_list.to_string()
-    # expected = '{5} -> {3} -> {2} -> {1} -> NULL'
-    # assert actual == expected
 
 
 ##############
