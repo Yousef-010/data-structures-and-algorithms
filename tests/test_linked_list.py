@@ -16,17 +16,22 @@ def test_empty_linked_list_creation(linked_list):
     assert linked_list
 
 
-def test_insert_singleNode_into_linked_list(linked_list):
+def test_insert__SingleNodes_into_linked_list(linked_list):
     """
     test insert single value into linked_list successfully
     """
+    linked_list.insert(1)
     assert linked_list
 
 
-def test_insert_multipleNode_into_linked_list(linked_list):
+def test_insert__multipleNodes_into_linked_list(linked_list):
     """
-    test insert multiple values into linked_list successfully
+    test insert single value into linked_list successfully
     """
+
+    linked_list.insert(4)
+    linked_list.insert(5)
+    linked_list.insert(6)
     assert linked_list
 
 
@@ -34,14 +39,18 @@ def test_Head(linked_list):
     """
     test if the head points to the first node in the linked list
     """
-    assert linked_list.head.value
+    linked_list.insert(7)
+    actual = linked_list.head.value
+    expected = 7
+    assert actual == expected
+    # assert linked_list.head.value
 
 
 def test_includes_exists_value(linked_list):
     """
     test search values in linked_list will return True if it exists
     """
-    actual = linked_list.includes(1)
+    actual = linked_list.includes(2)
     expected = True
     assert actual == expected
 
@@ -62,6 +71,15 @@ def test_to_string(linked_list):
     assert linked_list.to_string()
 
 
+
+
+
+
+
+
+
+
+
 ##############
 # pytest.fixture
 ##############
@@ -77,21 +95,10 @@ def node():
 @pytest.fixture
 def linked_list():
     linked_list = LinkedList()
+    linked_list.insert(1)
+    linked_list.insert(2)
+    linked_list.insert(3)
     return linked_list
 
 
-# insert single nodes
-@pytest.fixture
-def linked_list():
-    linked_list = LinkedList()
-    linked_list.insert_single_value(1)
-    linked_list.insert_single_value(2)
-    return linked_list
 
-
-# insert multi nodes by using array then catch every element then makes it as node
-@pytest.fixture
-def linked_list():
-    linked_list = LinkedList()
-    linked_list.insert_multiple_values([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-    return linked_list
