@@ -64,7 +64,12 @@ def test_includes_Not_exists_value(linked_list):
     assert actual == expected
 
 
-
+# def test_append_to_linked_list():
+# def test_append_multipleNode_to_linked_list():
+# def test_insert_before_to_linked_list():
+# def test_insert_at_the_beginning_to_linked_list():
+# def test_insert_after_to_linked_list():
+# def test_insert_at_the_last_to_linked_list():
 
 
 def test_to_string(linked_list):
@@ -72,15 +77,6 @@ def test_to_string(linked_list):
     test represent the linked list values in a formatted way
     """
     assert linked_list.to_string()
-
-
-
-
-
-
-
-
-
 
 
 ##############
