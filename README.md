@@ -5,3 +5,4 @@
  | class 02 | [array-insert-shift](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/array_insert_shift/README.md)   |
  | class 03 | [array_binary_search](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/array_binary_search/README.md) |
  | class 05 | [Linked List](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/linked_list/README.md)                           |
+ | class 06 | [linked-list-insertions](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/linked_list_insertions/README.md)                           |
