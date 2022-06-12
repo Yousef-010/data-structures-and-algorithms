@@ -36,51 +36,6 @@ class LinkedList:
             current = current.next
         return False
 
-    # def append(self, value):
-    #     node = Node(value)
-    #     if self.head is None:
-    #         self.head = node
-    #     else:
-    #         current = self.head
-    #
-    #         while current.next:
-    #             current = current.next
-    #
-    #         current.next = node
-
-    # def insert_before(self, value, newVal):
-    #     node = Node(newVal)
-    #     if self.head.value == value:
-    #         node.next = self.head
-    #         self.head = node
-    #     else:
-    #         current = self.head
-    #         while current.next:
-    #             if current.next.value == value:
-    #                 node.next = current.next
-    #                 current.next = node
-    #                 break
-    #
-    #             current = current.next
-    #         if current.next is None:
-    #             raise ValueError(f'{value} it is not founded')
-
-    # def insert_after(self, value, newVal):
-    #     node = Node(newVal)
-    #     if self.head is None:
-    #
-    #         self.head = node
-    #     else:
-    #         current = self.head
-    #         while current:
-    #             if current.value == value:
-    #                 node.next = current.next
-    #                 current.next = node
-    #                 break
-    #             current = current.next
-    #
-    #         if current is None:
-    #             raise ValueError(f'{value} it is not founded')
 
     def to_string(self):
         """
