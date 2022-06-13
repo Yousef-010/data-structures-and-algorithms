@@ -50,18 +50,18 @@ A Linked List is a data structure represent the data as nodes each node contain
     - Single Linked List
  - What is the Big O space/time for this approach?
      - insertion time complexity : BigO = O(1)
-       - insertion space complexity : BigO = O(n)
+       - insertion space complexity : BigO = O(1)
      - includes time complexity : BigO = O(n)
        - includes space complexity : BigO = O(1)
      - to_string time complexity : BigO = O(n)
        - to_string space complexity : BigO = O(1)
 <br/>
      - insert_before time complexity : BigO = O(n)
-       - insert_before space complexity : BigO = O(n)
+       - insert_before space complexity : BigO = O(1)
      - insert_after time complexity : BigO = O(n)
-       - insert_after space complexity : BigO = O(n)
+       - insert_after space complexity : BigO = O(1)
      - append time complexity : BigO = O(n)
-        - append space complexity : BigO = O(n)
+        - append space complexity : BigO = O(1)
 
 > ##### API 
     - Insert

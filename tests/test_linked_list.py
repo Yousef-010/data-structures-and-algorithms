@@ -21,18 +21,21 @@ def test_insert__SingleNodes_into_linked_list(linked_list):
     test insert single value into linked_list successfully
     """
     linked_list.insert(1)
-    assert linked_list
+    actual = linked_list.to_string()
+    expected = '{1} -> {3} -> {2} -> {1} -> NULL'
+    assert actual == expected
 
 
 def test_insert__multipleNodes_into_linked_list(linked_list):
     """
     test insert single value into linked_list successfully
     """
-
     linked_list.insert(4)
     linked_list.insert(5)
     linked_list.insert(6)
-    assert linked_list
+    actual = linked_list.to_string()
+    expected = '{6} -> {5} -> {4} -> {3} -> {2} -> {1} -> NULL'
+    assert actual == expected
 
 
 def test_Head(linked_list):
@@ -69,7 +72,9 @@ def test_append_to_linked_list(a_linked_list):
     to add a node to the end of the linked list
     """
     a_linked_list.append(5)
-    assert a_linked_list
+    actual = a_linked_list.to_string()
+    expected = '{1} -> {3} -> {2} -> {5} -> NULL'
+    assert actual == expected
 
 
 def test_append_Multi_Node_to_linked_list(a_linked_list):
@@ -79,7 +84,9 @@ def test_append_Multi_Node_to_linked_list(a_linked_list):
     a_linked_list.append(5)
     a_linked_list.append(6)
     a_linked_list.append(7)
-    assert a_linked_list
+    actual = a_linked_list.to_string()
+    expected = '{1} -> {3} -> {2} -> {5} -> {6} -> {7} -> NULL'
+    assert actual == expected
 
 
 def test_insert_before_middle_to_linked_list(i_linked_list):
@@ -87,7 +94,9 @@ def test_insert_before_middle_to_linked_list(i_linked_list):
     to  insert a node before a node located i the middle of a linked list
     """
     i_linked_list.insert_before(3, 5)
-    assert i_linked_list
+    actual = i_linked_list.to_string()
+    expected = '{1} -> {5} -> {3} -> {2} -> NULL'
+    assert actual == expected
 
 
 def test_insert_before_first_to_linked_list(i_linked_list):
@@ -95,7 +104,9 @@ def test_insert_before_first_to_linked_list(i_linked_list):
     to insert a node before the first node of a linked list
     """
     i_linked_list.insert_before(1, 5)
-    assert i_linked_list
+    actual = i_linked_list.to_string()
+    expected = '{5} -> {1} -> {3} -> {2} -> NULL'
+    assert actual == expected
 
 
 def test_insert_before_to_linked_list(ll):
@@ -103,7 +114,9 @@ def test_insert_before_to_linked_list(ll):
     to insert before the first {2} in the linked_list
     """
     ll.insert_before(2, 5)
-    assert i_linked_list
+    actual = ll.to_string()
+    expected = '{1} -> {5} -> {2} -> {2} -> NULL'
+    assert actual == expected
 
 
 def test_insert_before_not_existing_Node_to_linked_list(i_linked_list):
@@ -121,7 +134,9 @@ def test_insert_after_middle_to_linked_list(i_linked_list):
     to insert after a node in the middle of the linked list
     """
     i_linked_list.insert_after(3, 5)
-    assert i_linked_list
+    actual = i_linked_list.to_string()
+    expected = '{1} -> {3} -> {5} -> {2} -> NULL'
+    assert actual == expected
 
 
 def test_insert_after_the_end_to_linked_list(i_linked_list):
@@ -129,7 +144,9 @@ def test_insert_after_the_end_to_linked_list(i_linked_list):
     to insert a node after the last node of the linked list
     """
     i_linked_list.insert_after(2, 5)
-    assert i_linked_list
+    actual = i_linked_list.to_string()
+    expected = '{1} -> {3} -> {2} -> {5} -> NULL'
+    assert actual == expected
 
 
 def test_insert_after_to_linked_list(ll):
@@ -137,7 +154,9 @@ def test_insert_after_to_linked_list(ll):
     to insert after the first {2} in the linked_list
     """
     ll.insert_after(2, 5)
-    assert i_linked_list
+    actual = ll.to_string()
+    expected = '{1} -> {2} -> {5} -> {2} -> NULL'
+    assert actual == expected
 
 
 def test_insert_after_not_existing_Node_to_linked_list(i_linked_list):
@@ -154,7 +173,9 @@ def test_to_string(linked_list):
     """
     test represent the linked list values in a formatted way
     """
-    assert linked_list.to_string()
+    actual = linked_list.to_string()
+    expected = '{3} -> {2} -> {1} -> NULL'
+    assert actual == expected
 
 
 ##############
@@ -203,4 +224,3 @@ def ll():
     ll.append(2)
     ll.append(2)
     return ll
-
