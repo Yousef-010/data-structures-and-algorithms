@@ -1,8 +1,8 @@
-
 class Node:
     """
     It will store the data and the reference to the next node
     """
+
     def __init__(self, value):
         self.value = value
         self.next = None
@@ -12,6 +12,7 @@ class LinkedList:
     """
     create a sequence of Nodes
     """
+
     def __init__(self):
         self.head = None
 
@@ -80,6 +81,27 @@ class LinkedList:
 
             if current is None:
                 raise ValueError(f'node with value {value} it is not founded')
+
+    def kth_from_end(self, k):
+        if k < 0:
+            return 'your input should be positive value'
+        else:
+            if self.head is None:
+                return 'Empty linked list'
+            else:
+                length = 0
+                current = self.head
+                while current:
+                    current = current.next
+                    length += 1
+                if length - 1 < k:
+                    return 'your input is greater than the length of the list'
+                else:
+                    location = length - k
+                    current = self.head
+                    for pointer in range(location-1):
+                        current = current.next
+                    return current.value
 
     def to_string(self):
         """

@@ -169,6 +169,39 @@ def test_insert_after_not_existing_Node_to_linked_list(i_linked_list):
         return ValueError == 'node with value 4 it is not founded'
 
 
+def test_kth_from_end_Where_k_is_greater_than_the_length_of_the_linked_list(k_linked_list):
+    actual = k_linked_list.kth_from_end(15)
+    expected = 'your input is greater than the length of the list'
+    assert actual == expected
+
+
+def test_kth_from_end_Where_k_and_the_length_of_the_list_are_the_same(k_linked_list):
+    actual = k_linked_list.kth_from_end(1)
+    expected = 20
+    assert actual == expected
+
+
+def test_kth_from_end_Where_k_is_not_a_positive_integer(k_linked_list):
+    actual = k_linked_list.kth_from_end(-5)
+    expected = 'your input should be positive value'
+    assert actual == expected
+
+
+def test_kth_from_end_Where_the_linked_list_is_of_a_size_one(k_linked_list):
+    new_linked_list = LinkedList()
+    new_linked_list.insert(30)
+    # the size of new_linked_list is one
+    actual = new_linked_list.kth_from_end(0)
+    expected = 30
+    assert actual == expected
+
+
+def test_kth_from_end(k_linked_list):
+    actual = k_linked_list.kth_from_end(1)
+    expected = 20
+    assert actual == expected
+
+
 def test_to_string(linked_list):
     """
     test represent the linked list values in a formatted way
@@ -224,3 +257,11 @@ def ll():
     ll.append(2)
     ll.append(2)
     return ll
+
+
+@pytest.fixture
+def k_linked_list():
+    k_l = LinkedList()
+    k_l.insert(10)
+    k_l.insert(20)
+    return k_l
