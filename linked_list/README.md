@@ -10,17 +10,15 @@ A Linked List is a data structure represent the data as nodes each node contain
    - insert
      - Arguments: value
      - Returns: nothing
-       - Adds a new node with that value to the head of the list with an O(1) Time performance. 
+     - Adds a new node with that value to the head of the list with an O(1) Time performance. 
    - includes
      - Arguments: value
      - Returns: Boolean
-       - Indicates whether that value exists as a Node’s value somewhere within the list.
+     - Indicates whether that value exists as a Node’s value somewhere within the list.
    - to string
      - Arguments: none
      - Returns: a string representing all the values in the Linked List, formatted as:
-       - "{ a } -> { b } -> { c } -> NULL"
- <br/>
-**New code challenge** 
+     - "{ a } -> { b } -> { c } -> NULL"
    - append
      - arguments: new value
      - adds a new node with the given value to the end of the list
@@ -33,7 +31,7 @@ A Linked List is a data structure represent the data as nodes each node contain
    - kth_from_end:
      - argument: k as number
      - return : the node’s value that is k places from the tail of the linked list.
-**New code challenge**  
+  
 
 ## Whiteboard Process
 - append function
