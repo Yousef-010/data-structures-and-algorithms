@@ -30,7 +30,9 @@ A Linked List is a data structure represent the data as nodes each node contain
    - insert after
      - arguments: value, new value
      - adds a new node with the given new value immediately after the first node that has the value specified
-   
+   - kth_from_end:
+     - argument: k as number
+     - return : the node’s value that is k places from the tail of the linked list.
 **New code challenge**  
 
 ## Whiteboard Process
@@ -43,6 +45,8 @@ A Linked List is a data structure represent the data as nodes each node contain
 - insert after function
 ![insert after](insert-after.png)
 
+- kth_from_end method
+![kth_from_end](kth_from_end.png)
 
 
 > ##### Approach & Efficiency
@@ -62,6 +66,8 @@ A Linked List is a data structure represent the data as nodes each node contain
        - insert_after space complexity : BigO = O(1)
      - append time complexity : BigO = O(n)
         - append space complexity : BigO = O(1)
+     - kth_from_end time complexity : BigO = O(n)
+          - kth_from_end space complexity : BigO = O(1)
 
 > ##### API 
     - Insert
@@ -89,3 +95,7 @@ A Linked List is a data structure represent the data as nodes each node contain
         head -> {1} -> {3} -> {2} -> X	
         append(5)	
         head -> {1} -> {3} -> {2} -> {5} -> X
+    - kth_from_end
+        it is an method take one argument k as number and return the node’s value that is k places from the tail of the linked list.
+        head -> {1} -> {3} -> {8} -> {2} -> X     k=0 
+        return 2
