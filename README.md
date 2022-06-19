@@ -6,6 +6,6 @@
  | class 03 | [array_binary_search](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/array_binary_search/README.md) |
  | class 05 | [Linked List](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/linked_list/README.md)                 |
  | class 06 | [linked-list-insertions](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/linked_list/README.md)      |
- | class 07 | [linked-list-kth_from_end](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/linked_list/README.md)               |
- | class 08 | [Zip two linked lists.](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/challengs/linkedList-zip/README.md)               |
+ | class 07 | [linked-list-kth_from_end](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/linked_list/README.md)          |
+ | class 08 | [Zip two linked lists.](https://github.com/Yousef-010/data-structures-and-algorithms/blob/e48173fd21fa8cebe25a07a2e1abb7b8f843e7b2/challengs/linkedList_zip/README.md)|
 
