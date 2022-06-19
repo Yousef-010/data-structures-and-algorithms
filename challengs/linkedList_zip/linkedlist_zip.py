@@ -5,6 +5,7 @@ second_linked_list = LinkedList()
 
 
 def zip_list(first_linked_list, second_linked_list):
+
     pass
 
 
