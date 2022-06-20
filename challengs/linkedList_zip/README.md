@@ -37,3 +37,7 @@
   - if yes insert into first linked list the value of current2 after the value of current1
   - move the current2 one step and move the current1 two steps
   - check if the next of the current1 is None, if yes return first linked list
+
+> TEST
+- pytest .\tests\test_zip_linkedlist.py
+    6 tests Passed
