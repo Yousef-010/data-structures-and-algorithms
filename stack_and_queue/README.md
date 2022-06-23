@@ -73,7 +73,17 @@
     - is_empty O(1)
     - peek 0(1)
 
-#### API
+
+#### Stacks and Queues Algorithms and Visualization
+![Stacks and Queues Algorithms](Stacks_and_Queues_Algorithms.png)
+
+![Stacks Visualization](Stacks_Visualization.png)
+
+
+![Queue Visualization](Queue_Visualization.png)
+
+
+##### API
 
 
 - push : create new node with the value and make the next of the node equal the top and the top equal the node
