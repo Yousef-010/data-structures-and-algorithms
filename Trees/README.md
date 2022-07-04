@@ -8,6 +8,9 @@
     - pre order
     - in order
     - post order which returns an array of the values, ordered appropriately.
+    - findMax :
+      - argument : None
+      - return the maximum value in a tree
 - Binary Search Tree
   - Create a Binary Search Tree class
     -This class should be a subclass (or your languages equivalent) of the Binary Tree Class, with the following additional methods:
@@ -41,12 +44,14 @@
     - post-order : o(n)
     - add : O(log2n)
     - contain : O(log2n)
+    - findMax : O(n)
   - space complexity : 
     - pre-order : o(n)
     - in-order : o(n)
     - post-order : o(n)
     - add : O(1)
     - contain : O(1)
+    - findMax : O(n)
 #### API
 
 - add method : 
@@ -66,8 +71,23 @@
   - and repeat the process until finding the value 
   - return True if the value is in tree 
   - return False if the value is not in tree
+- findMax method : 
+  - in this method i 
+  - check if the tree is empty return none 
+  - declare a function with root value and the max with zero
+  - check if the root is less than the max , if yes max will equal the value of the root
+  - else do the function again ( recursive function ) with the left node of the root 
+  - else do the function again ( recursive function ) with the right node of the root
+  - return the maximum value 
+  - return the recursive function with the root node of the tree
 
 ##### Test 
 - All tests passed
 - pytest .\tests\test_binary_tree.py    
 - pytest .\tests\test_binary_search_tree.py
+
+
+
+> whiteboard images : 
+> 
+![find_max image](code%20challenge%2017%20.png)
