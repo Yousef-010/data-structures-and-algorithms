@@ -45,7 +45,7 @@
     - pre-order : o(n)
     - in-order : o(n)
     - post-order : o(n)
-    - add : O(n)
+    - add : O(1)
     - contain : O(1)
 #### API
 
