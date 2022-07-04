@@ -65,6 +65,26 @@ def test_in_order(tree):
     assert actual == expected
 
 
+def test_find_max_in_tree(tree2):
+    """
+    this test for finding the max value in a tree
+    """
+    actual = tree2.find_max()
+    expected = 11
+    assert actual == expected
+
+
+def test_find_max_in_tree_two(tree2):
+    """
+    this test for finding the max value in a tree
+    """
+    tree2.root.right.right.right = Node(100)
+    actual = tree2.find_max()
+    expected = 100
+    assert actual == expected
+
+
+
 ############
 # fixture
 ############
@@ -77,3 +97,19 @@ def tree():
     tree.root.left.left = Node(1)
     tree.root.left.right = Node(20)
     return tree
+
+
+@pytest.fixture
+def tree2():
+    tree2 = BinaryTree()
+    tree2.root = Node(2)
+    tree2.root.left = Node(7)
+    tree2.root.left.left = Node(2)
+    tree2.root.left.right = Node(6)
+    tree2.root.left.right.left = Node(5)
+    tree2.root.left.right.right = Node(11)
+    tree2.root.right = Node(5)
+    tree2.root.right.right = Node(9)
+    tree2.root.right.right.left = Node(4)
+    return tree2
+
