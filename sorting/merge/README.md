@@ -15,7 +15,7 @@
 > Efficiency
 - Big O notation : 
 - merge sort is a recursive algorithm
-  - Time complexity: O(N)
+  - Time complexity: O(N*logN )
   - Space complexity:O(N)
 
 
