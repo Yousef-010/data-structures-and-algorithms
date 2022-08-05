@@ -18,5 +18,6 @@
  | class 19 | [insertion_sort](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/sorting/insertion/README.md)                                |
  | class 20 | [merge_sort](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/sorting/merge/README.md)                                        |
  | class 21 | [Quick_sort](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/sorting/Quick/README.md)                                        |
+ | class 22 | [hashmap](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/hashmap/README.md)                                                 |
 
  
