@@ -19,5 +19,6 @@
  | class 20 | [merge_sort](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/sorting/merge/README.md)                                        |
  | class 21 | [Quick_sort](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/sorting/Quick/README.md)                                        |
  | class 22 | [hashmap](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/hashmap/README.md)                                                 |
+ | class 23 | [first_repeated_word](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/challengs/first_repeated_word/README.md)               |
 
  
