@@ -17,7 +17,10 @@
 
 
 >  Big O notation 
-- Time Complexity: O(n)
+- Time Complexity: O(N^2) 
+  - because i sued nested loop the first in line 13, to iterate over the chars in the string, so it will be o(n)
+  - and the second in hte if statement because it is from range to range, so it will be o(n)
+  - So the final time complexity will be O(n^2)
 - Space Complexity:O(n)
 
 
