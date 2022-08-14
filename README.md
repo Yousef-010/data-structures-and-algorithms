@@ -21,5 +21,4 @@
  | class 22 | [hashmap](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/hashmap/README.md)                                                 |
  | class 23 | [first_repeated_word](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/challengs/first_repeated_word/README.md)               |
  | class 24 | [tree_intersection](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/challengs/tree_intersection/README.md)                   |
-
- 
+ | class 25 | [join_left](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/challengs/hashmap_left_join/README.md)                           |
