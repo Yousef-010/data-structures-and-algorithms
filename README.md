@@ -23,5 +23,6 @@
  | class 24 | [tree_intersection](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/challengs/tree_intersection/README.md)                   |
  | class 25 | [join_left](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/challengs/hashmap_left_join/README.md)                           |
  | class 26 | [Graph implementation](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/graph/README.md)                                      |
- | class 26 | [Graph breadth_first_traversal](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/graph/graph_breadth_first/README.md)         |
- | class 26 | [lab36-three whiteboards](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/lab36/README.md)                                   |
+ | class 27 | [Graph breadth_first_traversal](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/graph/graph_breadth_first/README.md)         |
+ | class 28 | [lab36-three whiteboards](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/lab36/README.md)                                   |
+ | class 29 | [graph-business-trip](https://github.com/Yousef-010/data-structures-and-algorithms/blob/main/challengs/graph_business_trip/README.md)               |
